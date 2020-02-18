@@ -1,0 +1,23 @@
+{
+  "name": "confirm-key",
+  "version": "1.0.0",
+  "description": "Represent a portion of a key as a short mnumonic to verbally confirm two keys are probably the same",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.test.js | tap-spec"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "Magma Collective",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "sodium-native": "^2.4.9"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.0",
+    "tape-plus": "^1.0.0"
+  }
+}
